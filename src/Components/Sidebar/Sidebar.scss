@@ -1,0 +1,91 @@
+.sidebar{
+    height: 94%;
+    width: 12%;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .line{
+        border-bottom: 1px solid #dddddd;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .sidebar-container-header{
+        width: max-content;
+        height: 4vh;
+        padding: 0.5rem;
+        padding-left: 10px;
+        align-items: center;
+        display: flex;
+
+        p{
+            margin-left: auto;
+            margin-right: 20px;
+        }
+    }
+
+    .subscription-container{
+        width: 100%;
+        height: 4vh;
+        align-items: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        border-radius: 0.6rem;
+        display: flex;
+        padding-left: 10px;
+        justify-content: space-evenly;
+        overflow: hidden;
+
+        .sub-profile{
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            background-color: grey;
+        }
+
+        .blue-dot{
+            background-color: blue;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+        }
+    }
+
+    .sidebar-container{
+        width: 100%;
+        height: 4vh;
+        align-items: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        border-radius: 0.6rem;
+        display: flex;
+        padding-left: 10px;
+
+        p{
+            margin-left: 10px;
+            margin-right: 4px;
+        }
+
+        .youtube-home{
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    .subscription-container:hover{
+        background-color: rgb(231, 231, 231);
+    }
+
+    .sidebar-container:hover{
+        background-color: rgb(231, 231, 231);
+    }
+}
